@@ -1,0 +1,152 @@
+p{
+    width: 50%;
+    font-size: 25px;
+    margin: 40px 25px;
+    text-align: left;
+    line-height: 1.5;
+    color: black;
+}
+
+h1{
+    font-size: 40px;
+    margin-left: 25px;
+}
+
+.historia h2{
+    width: 100%;
+    text-align: center;
+    font-size: 40px;
+}
+
+.historia h3{
+    width: 100%;
+    text-align: center;
+    font-size: 30px;
+}
+
+.historia{
+    padding: 10px;
+    background-color: lightgrey;  
+}
+
+.historia p{
+    font-weight: 400;
+    font-size: 20px;
+    width: 50%;
+}
+
+
+
+.imagen{
+    width: 50%;
+    padding-top: 45px;   
+}
+
+.line{
+    display: flex;
+    flex-direction: row;
+}
+
+/* impacto ambiental */
+
+.titulos h2{
+    width: 100%;
+    text-align: center;
+    font-size: 40px;
+}
+
+.titulos h3{
+    width: 100%;
+    text-align: center;
+    font-size: 30px;
+}
+
+
+.titulos p{
+    font-weight: 400;
+    font-size: 20px;
+    width: 100%;    
+}
+
+.titulos ul li{
+    font-weight: 400;
+    font-size: 20px;
+    /* width: 50%; */
+    margin-left: 20px; 
+}
+
+
+/*  */
+
+/* salud */
+
+.titulos{
+    padding: 10px;
+    
+}
+
+
+.imagenes{
+    display: flex;
+    flex-direction: row;
+    width: 800px;
+    margin: 0 auto;
+}
+
+/*  */
+
+/* impacto ambiental */
+
+
+.titulos1 h2{
+    width: 100%;
+    text-align: center;
+    font-size: 40px;
+}
+
+.titulos1 h3{
+    width: 100%;
+    text-align: center;
+    font-size: 30px;
+}
+
+.titulos1 p{
+    font-weight: 400;
+    font-size: 20px;
+    width: 100%;
+    
+}
+
+p{
+    text-align: left;
+}
+
+.titulos1 ol li{
+    font-weight: 400;
+    font-size: 20px;
+    margin-left: 40px;
+    
+}
+
+.videos{ 
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    padding: 40px;
+    padding-right: 10px;
+    margin-top: 10px;
+    justify-content: space-between;
+    border: 1px  black;
+
+}
+
+.videos iframe{
+    margin-top: 10px;
+}
+
+/*  */
+
+
+
+
+

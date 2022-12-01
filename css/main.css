@@ -1,0 +1,312 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+.logo-nombre {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  font-size: 20px; }
+
+/* index */
+.body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  background-image: url("../images/pigg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-position: center; */
+  /* overflow: hidden; */ }
+
+/*  */
+/* historia.html */
+.body1 {
+  font-family: 'Poppins', sans-serif;
+  /* padding: 10px; */
+  background-color: lightgrey; }
+
+/*  */
+/* salud */
+.body2 {
+  font-family: 'Poppins', sans-serif;
+  background-color: lightgrey; }
+
+/*  */
+/* impacto ambiental */
+.body3 {
+  font-family: 'Poppins', sans-serif;
+  background-color: lightgrey;
+  overflow-x: disabled; }
+
+/*  */
+.body4 {
+  font-family: 'Poppins', sans-serif;
+  background-color: lightgrey; }
+
+nav a:hover {
+  color: white;
+  transition: .4s; }
+
+.logo {
+  display: flex;
+  align-items: center; }
+
+.logo {
+  max-width: 80%; }
+
+.logo img {
+  height: 50px;
+  margin-right: 3px;
+  opacity: .7;
+  padding: 0 20px !important; }
+
+.menu,
+.menu .navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+
+.menu .navbar {
+  width: 100%;
+  background-color: transparent !important; }
+
+.menu_items {
+  display: flex;
+  list-style: none; }
+
+/* .navbar-nav .menu_items{
+    display: flex;
+    justify-content: space-between;
+}
+ */
+.menu_items li a {
+  text-decoration: none;
+  color: black;
+  font-weight: 600;
+  padding-right: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 70px;
+  text-transform: uppercase; }
+
+.navbar-nav .menu_items .nav-link {
+  text-decoration: none;
+  color: black;
+  font-weight: 600;
+  padding-right: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 70px;
+  text-transform: uppercase; }
+
+.navbar-nav .menu_items .nav-link {
+  display: flex;
+  justify-content: space-between; }
+
+.navbar-collapse {
+  flex-grow: 0; }
+
+/* consultas */
+p {
+  width: 50%;
+  font-size: 25px;
+  margin: 40px 25px;
+  text-align: left;
+  line-height: 1.5;
+  color: black; }
+
+h1 {
+  font-size: 40px;
+  margin-left: 25px; }
+
+.historia h2 {
+  width: 100%;
+  text-align: center;
+  font-size: 40px; }
+
+.historia h3 {
+  width: 100%;
+  text-align: center;
+  font-size: 30px; }
+
+.historia {
+  padding: 10px;
+  background-color: lightgrey; }
+
+.historia p {
+  font-weight: 400;
+  font-size: 20px;
+  width: 50%; }
+
+.imagen {
+  width: 50%;
+  padding-top: 45px; }
+
+.line {
+  display: flex;
+  flex-direction: row; }
+
+/* impacto ambiental */
+.titulos h2 {
+  width: 100%;
+  text-align: center;
+  font-size: 40px; }
+
+.titulos h3 {
+  width: 100%;
+  text-align: center;
+  font-size: 30px; }
+
+.titulos p {
+  font-weight: 400;
+  font-size: 20px;
+  width: 100%; }
+
+.titulos ul li {
+  font-weight: 400;
+  font-size: 20px;
+  /* width: 50%; */
+  margin-left: 20px; }
+
+/*  */
+/* salud */
+.titulos {
+  padding: 10px; }
+
+.imagenes {
+  display: flex;
+  flex-direction: row;
+  width: 800px;
+  margin: 0 auto; }
+
+/*  */
+/* impacto ambiental */
+.titulos1 h2 {
+  width: 100%;
+  text-align: center;
+  font-size: 40px; }
+
+.titulos1 h3 {
+  width: 100%;
+  text-align: center;
+  font-size: 30px; }
+
+.titulos1 p {
+  font-weight: 400;
+  font-size: 20px;
+  width: 100%; }
+
+p {
+  text-align: left; }
+
+.titulos1 ol li {
+  font-weight: 400;
+  font-size: 20px;
+  margin-left: 40px; }
+
+.videos {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  padding: 40px;
+  padding-right: 10px;
+  margin-top: 10px;
+  justify-content: space-between;
+  border: 1px  black; }
+
+.videos iframe {
+  margin-top: 10px; }
+
+/*  */
+.formulario .form .form-header .form-titulo {
+  font-family: 'Poppins', sans-serif;
+  color: #26b026;
+  text-align: center;
+  padding: 14px 0; }
+
+.formulario .form .form-header .form-titulo span {
+  color: white; }
+
+.formulario .form {
+  background: rgba(0, 0, 0, 0.6);
+  width: 90%;
+  max-width: 650px;
+  margin: auto;
+  padding: 5px 35px;
+  margin-top: 30px;
+  padding-bottom: 30px;
+  border-radius: 3px;
+  display: flex;
+  flex-direction: column; }
+
+.formulario .form .form-label {
+  display: block;
+  color: white;
+  font-size: 16px;
+  position: relative; }
+
+.formulario .form .form-input, .form-textarea {
+  background: rgba(0, 0, 0, 0.1);
+  border: none;
+  outline: none;
+  border-bottom: 2px solid #26b026;
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 20px;
+  border-radius: 20px;
+  font-size: 16px;
+  font-family: 'Poppins', sans-serif; }
+
+.formulario .form .form-textarea {
+  resize: vertical;
+  max-height: 150px;
+  min-height: 50px; }
+
+.formulario .form .btn-submit {
+  width: 100%;
+  outline: none;
+  background: #26b026;
+  font-size: 16px;
+  border: none;
+  color: white;
+  padding: 15px 0;
+  cursor: pointer;
+  transition: .4s;
+  /*  -webkit-box-shadow: 0px 5px 26px 8px  rgb(45, 145, 45, .80) ; box-shadow: 0px 5px 26px 8px rgba(3, 83, 3, 0.8); */
+  box-sizing: 1px;
+  border-radius: 20px; }
+
+.formulario .form .btn-submit:hover {
+  background: #5dda5d; }
+
+#pie {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; }
+
+.banner {
+  width: 35px;
+  height: 35px;
+  text-align: center;
+  padding-right: 10px; }
+
+.container p {
+  width: 100%;
+  font-size: 20px;
+  font-weight: 600; }
+
+.copy {
+  text-align: center; }
+
+@media (max-width: 640px) {
+  .logo {
+    width: 80%; } }

@@ -1,0 +1,24 @@
+#pie{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;   
+}
+
+.banner{
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    padding-right: 10px;  
+}
+
+.container p{
+    width: 100%;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.copy{
+    text-align: center;
+}
+

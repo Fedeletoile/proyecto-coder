@@ -1,0 +1,68 @@
+.formulario .form .form-header .form-titulo{
+    font-family: 'Poppins', sans-serif;
+    color: rgb(38, 176, 38);
+    text-align: center;
+    padding: 14px 0;
+}
+
+.formulario .form .form-header .form-titulo span{
+    color: white;
+}
+
+.formulario .form{
+    background: rgba( 0, 0, 0, .6);
+    width: 90%;
+    max-width: 650px;
+    margin: auto;
+    padding: 5px 35px;
+    margin-top: 30px;
+    padding-bottom: 30px;
+    border-radius: 3px;
+    display: flex;
+    flex-direction: column;     
+}
+
+.formulario .form .form-label{
+    display: block;
+    color: white;
+    font-size: 16px;
+    position: relative;
+}
+
+.formulario .form .form-input, .form-textarea{
+    background: rgba(0, 0, 0, .1);
+    border: none;
+    outline: none;
+    border-bottom: 2px solid rgb(38, 176, 38);
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.formulario .form .form-textarea{
+    resize: vertical;
+    max-height: 150px;
+    min-height: 50px;
+}
+
+.formulario .form .btn-submit{
+    width: 100%;
+    outline: none;
+    background: rgb(38, 176, 38);
+    font-size: 16px;
+    border: none;
+    color: white;
+    padding: 15px 0;
+    cursor: pointer;
+    transition: .4s;
+   /*  -webkit-box-shadow: 0px 5px 26px 8px  rgb(45, 145, 45, .80) ; box-shadow: 0px 5px 26px 8px rgba(3, 83, 3, 0.8); */
+    box-sizing: 1px;
+    border-radius: 20px;
+}
+
+.formulario .form .btn-submit:hover{
+    background: rgb(93, 218, 93);
+}
