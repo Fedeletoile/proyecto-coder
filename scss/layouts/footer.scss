@@ -18,7 +18,31 @@
     font-weight: 600;
 }
 
-.copy{
+#pie .container .copy{
     text-align: center;
+    color: white;
+
 }
 
+#pie{
+    background-color: black;
+}
+
+/* impacto ambiental */
+
+p{
+    width: 50%;
+    font-size: 25px;
+    /* margin: 40px 25px; */
+    text-align: left;
+    line-height: 1.5;
+    color: black;
+}
+
+.footer-index{
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    color: white;
+    width: 100%;
+}

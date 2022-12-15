@@ -36,17 +36,17 @@ nav a:hover{
     
 }
 
-.menu_items{
+/* .menu_items{
     display: flex;
     list-style: none;    
 }
-
+ */
 /* .navbar-nav .menu_items{
     display: flex;
     justify-content: space-between;
 }
  */
-.menu_items li a {
+/* .menu_items li a {
     text-decoration: none;
     color: black;
     font-weight: 600;
@@ -56,9 +56,9 @@ nav a:hover{
     align-items: center;
     height: 70px;
     text-transform: uppercase;
-}
+} */
 
-.navbar-nav .menu_items .nav-link{
+#navbarNav{
     text-decoration: none;
     color: black;
     font-weight: 600;
@@ -79,5 +79,8 @@ nav a:hover{
     flex-grow: 0;
 }
 
+#navbarNav{
+    flex-grow: 0;
+}
 /* consultas */
 
